@@ -5,8 +5,8 @@ export function attributesToArray (attributes) {
 
 export default {
 
-  ldapBaseUrl: process.env.LDAP_URL || "ldap://ldap.hp.com",
-  organization: process.env.LDAP_ORGANIZATION || "hp.com",
+  ldapBaseUrl: process.env.LDAP_URL || "ldap://ldap.grommet.io",
+  organization: process.env.LDAP_ORGANIZATION || "grommet.io",
 
   scopes: {
     people: {
